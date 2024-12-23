@@ -1,12 +1,34 @@
 {
-    "compilerOptions": {
-      "allowJs": true,
-      "checkJs": true,
-      "jsx": "react-jsx",
-      "module": "ESNext",
-      "moduleResolution": "Bundler"
-    },
-    "include": [
-      "**/*.jsx"
-    ]
-  }
+  "compilerOptions": {
+    "allowJs": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "checkJs": true,
+    "composite": false,
+    "downlevelIteration": true,
+    "esModuleInterop": true,
+    "exactOptionalPropertyTypes": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "jsx": "react",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "newLine": "lf",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "removeComments": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "ES6",
+    "verbatimModuleSyntax": true
+  },
+  "include": [
+    "**/*.jsx"
+  ]
+}
